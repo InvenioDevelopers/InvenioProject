@@ -1,6 +1,6 @@
 # InvenioProject
 
-[invenio-logo](invenio-logo.png/)
+![invenio-logo](invenio-logo.png)
 
 ## Тема курсової роботи
 
