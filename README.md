@@ -1,5 +1,7 @@
 # InvenioProject
 
+[Invinio_Logo]()
+
 ## Тема курсової роботи
 
 Тема нашої курсової роботи - встановити програмне забезпечення [Invenio](https://inveniosoftware.org/), а також спробувати конфігурувати його таким чином, що в результаті можна буде використовувати [Invenio](https://inveniosoftware.org/) для управління датасетами по аналогії до [Dataverse](https://dataverse.org/). Проблемою ж останнього є постійний ідентифікатор DOI (Digital Object Identifier), що не дозволяє користуватись цим open source\`ом безкоштовно.
