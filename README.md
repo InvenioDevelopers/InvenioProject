@@ -1,6 +1,6 @@
 # InvenioProject
 
-[Invinio_Logo](Invinio_Logo.jpg)
+[Invinio_Logo](Invinio_Logo.jpg/)
 
 ## Тема курсової роботи
 
