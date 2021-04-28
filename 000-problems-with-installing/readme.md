@@ -14,9 +14,6 @@
 По-перше, можна сказати, що інструкція для встановлення `pipenv` не зовсім вірна. Так розробники [Invenio](https://inveniosoftware.org/) пропонують встановлювати цей інструмент [такимм чином](https://pipenv.readthedocs.io), але при цьому надалі виникали конфлікти, пов'язані з тим, що після встановлення він був недоступний в оболонці. Тоді потрбно додати базу користувачів у двійковий каталог до вашого PATH. Цей варіант прописан [тут](../002-prerequisites/) або за прямим посиланням - [тут](https://manpages.ubuntu.com/manpages/eoan/man1/pipenv.1.html). 
 
 По-друге, при самому створенні сайта необхідно завантажити папку my-site (вона завантажується автоматично), в якій вже існують файли для створення цього сайту.
-Але при звертанні до цих файлів, як вказано в [інструкції](https://github.com/InvenioDevelopers/training/tree/master/01-getting-started), виводилось повідомлення про невідому команду ivenio:
-
-![](scrins-of-errors/errorWithTheFile.png)
 
 Зміст файлів можна побачити тут:
 
@@ -28,6 +25,10 @@
 
 ### server:
 ![](scrins-of-errors/fileServer.png)
+
+Але при звертанні до цих файлів, як вказано в [інструкції](https://github.com/InvenioDevelopers/training/tree/master/01-getting-started), виводилось повідомлення про невідому команду ivenio:
+
+![](scrins-of-errors/errorWithTheFile.png)
 
 Також, при створенні virualenv виводиться ще одна помилка про те, що неіснує модуля pipenv.pew. Це може також бути пов'язано з тим, що неможливо змінити `virtual memory`. Я встановив [Ubuntu](https://ubuntu.ru/) паралельно з [Windows](https://www.microsoft.com/uk-ua/software-download/), можливо, через це система не дозволяє мені змінити обсяж віртуальної пам'яті, щоб не було конфлікту з [Windows](https://www.microsoft.com/uk-ua/software-download/):
 
