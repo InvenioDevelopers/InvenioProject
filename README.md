@@ -18,6 +18,6 @@
 
 ### Автори:
 
-- **Андрейцов Ярослав** (tg: [yarik2028](https://t.me/yarik2028), *mail*: yarikkgg@gmail.com
+- **Андрейцов Ярослав** (*tg*: [yarik2028](https://t.me/yarik2028), *mail*: yarikkgg@gmail.com)
 
-- **Денисенко Михайло** (tg: [denya35](https://t.me/denya35), *mail*: mideisenko@gmail.com
+- **Денисенко Михайло** (*tg*: [denya35](https://t.me/denya35), *mail*: mideisenko@gmail.com)
