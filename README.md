@@ -16,8 +16,8 @@
 
 У розділі [початок роботи](003-getting-started/) Ви можете ознайомитися з тим, як почати роботу з даним програмним обоспеченіем забезпеченням.
 
-Автори:
+### Автори:
 
-Андрейцов Ярослав (tg: [yarik2028](https://t.me/yarik2028))
+- **Андрейцов Ярослав** (tg: [yarik2028](https://t.me/yarik2028), *mail*: yarikkgg@gmail.com
 
-Денисенко Михайло (tg: [denya35](https://t.me/denya35))
+- **Денисенко Михайло** (tg: [denya35](https://t.me/denya35), *mail*: mideisenko@gmail.com
