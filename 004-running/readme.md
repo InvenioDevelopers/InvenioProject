@@ -3,9 +3,10 @@
 
 Спочатку повернемо базову настройку контейнера для розробки:
 
-`$ docker-compose -f docker-compose.full.yml stop`                                         
-`$ docker-compose up -d`
-
+```
+$ docker-compose -f docker-compose.full.yml stop`                                         
+$ docker-compose up -d
+```
 ## Крок 2: Переконатися в правильному встановленню середощю Python
 
 Для правильної роботи  з [Invenio](https://inveniosoftware.org/) слід ізольовоно управляти середовищем. В Python це можна зробити за допомогою 
@@ -13,8 +14,11 @@ virtualenvs. Virualenv інкапсулює в папку версію Python, �
 Коли ми запускаємо команду `./scripts/bootstrap`, за допомогою інструмента інтерфейсу командного інтерфейсу pipenv автоматично створюється virtualenv Python 3.6, і встановлюються всі залежності нашого екземпляра Invenio.
 
 
-`$ pipenv --venv`                                                                                              
-`/home/bootcamp/.local/share/virtualenvs/my-site-7Oi5HgLM`                                                                                                
+```
+$ pipenv --venv                                                                                             
+/home/bootcamp/.local/share/virtualenvs/my-site-7Oi5HgLM                                                                             ```
+
+
 `$ pipenv shell`                                                                                                                                      
 `(my-site) $ python --version  # let's verify the Python version`                                                                                     
 `Python 3.6.7`                                                                                                                                            
