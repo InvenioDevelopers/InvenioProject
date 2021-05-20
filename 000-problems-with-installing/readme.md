@@ -35,3 +35,11 @@
 ![](scrins-of-errors/errorWithVirtualmemory.png)
 
 Хоча система визначає 480 Гб пам'яті, але виводить все одно 65530 мб.
+
+## Інсталяція Іnvenio на VirtualBox у Windows 10
+
+Після успішного встановлення VirtualBox а також Invenio Bootcamp Ubuntu на нього (інструкцію можна знайти [тут](https://github.com/InvenioDevelopers/InvenioProject/tree/main/001-installing-ubuntu#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-ubuntu-2004-%D0%BD%D0%B0-virtualbox-%D1%83-windows-10) виникла наступна проблема:
+![](scrins-of-errors/fileServer.png)
+
+
+
