@@ -41,9 +41,9 @@ $ pipenv --venv
 `cchardet==2.1.6`                                                                                                                       
 `celery==4.4.2`                                                                                                                                         
 `...`              
-
+```
 ## Запуск середовища [Invenio](https://inveniosoftware.org/) за допомогою  Python
-
+```
 (my-site) $ python                                                                                                  
 Python 3.6.7 (default, Oct 22 2018, 11:32:17)                                                                                         
 [GCC 8.2.0] on linux                                                                                                                        
@@ -51,22 +51,22 @@ Type "help", "copyright", "credits" or "license" for more information.
 `>>> 2 + 2 `                                                                                                                                          
 4                                                                                                                                         
 `>>> exit()  # or Ctrl-D`                                                                                                                                   
-                                                                                                                                                  
+                                                                                                                                              
                                                                                                                                       
 (my-site) $ ipython                                                                                                                                                   
 Python 3.6.7 (default, Oct 22 2018, 11:32:17)                                                                                                             
 Type 'copyright', 'credits' or 'license' for more information                                                                                                             
 IPython 7.3.0 -- An enhanced Interactive Python. Type '?' for help.                                                                                               
-                                                                                                                                                              
+                                                                                                                                                         
 In [1]: import requests                                                                                                                                                     
 In [2]: requests.get('https://httpbin.org/json')                                                                                                                                  
 Out[2]: <Response [200]>                                                                                                                                      
 In [3]: exit
-
+```
 ## Крок 4: Команда Invenio
 
 З встановлених пакетів Python ми також отримали команду invenio CLI, яка використовується для взаємодії з вашим екземпляром:
-
+```
 (my-site) $ invenio --help                                                                                                                          
 Usage: invenio [OPTIONS] COMMAND [ARGS]...                                                                                                                
                                                                                                                                                                 
@@ -95,11 +95,11 @@ Commands:
   tokens    OAuth2 server token commands.                                                                                                                                                   
   users     User commands.                                                                                                                                            
   webpack   Webpack commands.        
-  
+  ```
 ## Крок 5: Bзаємодія з програмними API
   
 Запустимо команду оболонки invenio: 
-
+```
 (my-site) $ invenio shell                                                                                                                                   
 Python 3.6.7 (default, Oct 22 2018, 11:32:17)                                                                                                                       
 [GCC 8.2.0] on linux                                                                                                                                                      
@@ -122,5 +122,5 @@ In [2]: from invenio_accounts.models import User
 In [3]: User.query.all()                                                                                                                                                  
 Out[3]: [<User 1>, <User 2>]                                                                                                                                            
 In [4]: exit
-
+```
 Різниця між звичайною оболонкою Python і породженою за допомогою команди оболонки invenio полягає в тому, що остання автоматично завантажує контекст вашого додатка. Це фактично означає, що вся конфігурація та розширення, які ви використовуєте, були завантажені, і з цієї причини ви можете, наприклад використовувати програмні API високого рівня (наприклад, клас User для запиту до бази даних), не надаючи деталей низького рівня, наприклад рядок підключення до БД. 
