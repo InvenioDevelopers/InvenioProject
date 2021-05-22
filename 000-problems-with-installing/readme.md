@@ -68,4 +68,6 @@
 
 Після виконання вказаних дій з'являється наступна помилка:
 
-![](scrins-of-errors/VirtualBox/Видалення kb_3004394.png)
+![](scrins-of-errors/VirtualBox/err_080070002.png)
+
+
