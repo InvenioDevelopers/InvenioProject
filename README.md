@@ -28,3 +28,5 @@
 - https://inveniosoftware.org/
 - https://inveniosoftware.org/products/rdm/
 - https://github.com/inveniosoftware/training
+- https://inveniordm.docs.cern.ch/install/
+- 
