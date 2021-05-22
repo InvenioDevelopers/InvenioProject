@@ -21,3 +21,10 @@
 - **Андрейцов Ярослав** (*tg*: [yarik2028](https://t.me/yarik2028), *mail*: yarikkgg@gmail.com)
 
 - **Денисенко Михайло** (*tg*: [denya35](https://t.me/denya35), *mail*: mideisenko@gmail.com)
+
+### Використані джерела:
+- https://qna.habr.com/q/705469
+- https://geekhow.ru/programmy/e_fail-0x80004005/
+- https://inveniosoftware.org/
+- https://inveniosoftware.org/products/rdm/
+- https://github.com/inveniosoftware/training
