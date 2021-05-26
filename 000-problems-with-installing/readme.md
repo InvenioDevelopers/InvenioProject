@@ -36,7 +36,7 @@
 
 Хоча система визначає 480 Гб пам'яті, але виводить все одно 65530 мб.
 
-![](scrins-of-errors/system.png)
+![](scrins-of-errors/systemOptions.png)
 
 ## Інсталяція Іnvenio на VirtualBox у Windows 10 (Розробляв Андрейцов Ярослав)
 
