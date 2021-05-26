@@ -1,5 +1,5 @@
 # Чому не вдалося встановити Іnvenio
-## Інсталяція Іnvenio на операційну систему Лінукс, встановлену паралельно з Windows (Розробляв Денисенко Михайло)
+## Інсталяція Іnvenio на операційну систему Лінукс, встановлену паралельно з Windows [Розробляв Денисенко Михайло]
 ### Проблема із першою спробою встановлення Invenio
 
 У ході спроби встановлення програмного забезпечення [Invenio](https://inveniosoftware.org/) виникла наступна проблема:
@@ -38,7 +38,7 @@
 
 ![](scrins-of-errors/systemOptions.png)
 
-## Інсталяція Іnvenio на VirtualBox у Windows 10 (Розробляв Андрейцов Ярослав)
+## Інсталяція Іnvenio на VirtualBox у Windows 10 [Розробляв Андрейцов Ярослав]
 
 Після успішного встановлення VirtualBox, а також Invenio Bootcamp Ubuntu на нього (інструкцію можна знайти [тут](https://github.com/InvenioDevelopers/InvenioProject/tree/main/001-installing-ubuntu#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-ubuntu-2004-%D0%BD%D0%B0-virtualbox-%D1%83-windows-10)) виникла наступна проблема:
 
